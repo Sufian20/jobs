@@ -1,0 +1,371 @@
+/*--star the navar section/*
+		/*Nebber*/
+        .fixed{
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 99;
+            background: white;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        .navigation-bar{
+            background: #FFFFFF;
+            padding-right: 35px;
+            padding-left: 35px;
+           
+        }
+      
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 14px;
+            font-weight: bold;
+            border-bottom: 4px solid transparent;
+            transition:all 0.3s ease;
+            color:#FB236A;
+        } 
+        
+        .navbar-light .navbar-nav .nav-link:hover{
+            border-bottom: 4px solid #FB236A;
+            color:#FB236A;
+        }
+        .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+            color: #000;
+            font-family: 'Pangolin', cursive;
+        }
+        .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover{
+            color: #FB236A;
+        }
+        .dropdown:hover .dropdown-menu{
+            display:block;
+        }
+        .dropdown-toggle::after{
+            display:none;
+        }
+        
+        
+        
+        @media (max-width: 992px){
+            .navbar-toggler{
+                background-color: #FB236A;
+                border-radius: 10px;
+            }
+            .navbar .nav-item .nav-link {
+                padding-right: 21px;
+                padding-left: 123px;
+            }
+        }
+/*Home-section-start--*/
+.benar{
+	background-image: url(../images/d-1.jpg);
+	
+	position: relative;
+	color: #fff;
+}
+.benar:before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #42586fdb;
+}
+.my-btn{
+	position: relative;
+    top: 39px;
+	background: #FB236A;
+    color: #fff;
+    padding: 10px 60px 10px 60px;
+    border-radius: 50px;
+    text-align: center;
+
+   
+}
+
+/*Text-title*/
+.head-text{
+	padding-top: 206px;
+    padding-bottom: 186px;
+    z-index: 99;
+    position: relative;
+    font-weight: bold;
+	color: #fff;
+}
+.benar-t-head{
+	padding-top: 84px;
+    padding-bottom: 70px;
+    z-index: 99;
+    position: relative;
+    font-weight: bold;
+}
+.benar-t-head h2{
+	font-weight: bold;
+}
+.benar-t-head p{
+	color: #0000006b;
+}
+/*Home-section-start--*/
+/*Content-section-start*/
+.content-1{
+	text-align: center;
+}
+.card-content{
+	border: 1px solid #d8e3e8;
+	margin-top: 10px;
+
+}
+.card-in{
+	    position: absolute;
+    left: 0px;
+    top: -6px;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 600;
+    color: #999;
+    opacity: 0.09;
+    line-height: 1;
+}
+.logo-img img{
+	position: relative;
+	padding: 30px 10px 26px 10px;
+	display: inline-block;
+	text-align: center;
+}
+.card-titel{
+	float: left;
+    width: 100%;
+    border-top: 1px solid #d8e3e8;
+    padding: 10px 10px 8px 10px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.card-titel span{
+	float: left;
+    padding: 2px 0px 5px 15px;
+    color: #666666;
+    font-weight: 400;
+}
+.card-titel small{
+	float: right;
+    font-size: 14px;
+    color: #666666;
+    padding: 3px 15px 2px 0px;
+}
+/*Content-section-End*/
+/
+/*recuintment-section-start--*/
+.cards{
+	position: relative;
+	padding-top: 20px;
+}
+.card-icon{
+	    margin-top: 56px;
+}
+.card-icon i{
+	position: relative;
+	 box-shadow: 0px 0px 24px 14px rgba(0,0,0,0.10);
+	color: #000;
+    padding: 47px 47px 47px 47px;
+    border-radius: 50%;
+    font-size: 90px;
+    transition:all 0.6s;
+}
+.card-icon i:hover{
+	position:relative;
+	color:#fff;
+	background: #FB236A;
+}
+.card-ti h3{
+	font-weight: bold;
+    padding-top: 15px;
+}
+.card-info p{
+	font-weight: bold;
+    color: #0000006b;
+}
+/*recuintment-section-end--*/
+/*futur-jobs secton start*/
+.orginnal-fj{
+	  padding-bottom: 15px;
+}
+.card-allAre{
+	position: absolute;
+	top: -203px;
+}
+.imgCar img{
+	position: relative;
+	z-index: 99;
+	width: 210px;
+	height: 204px;
+}
+.imgCar{
+	position: relative;
+	z-index: 99;
+	
+}
+.imgCar:before{
+	content: '';
+    position: absolute;
+    height: 204px;
+    width: 207px;
+    background: #fff;
+    top: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+.card-fj{
+     position: relative;
+    top: 0px;
+    left: 296px;
+    background: #fff;
+        padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 41px;
+    left: 212px;
+    top: 0px;
+    z-index: 99px;
+}
+.card-fj:before{
+	content: '';
+    position: absolute;
+    height: 204px;
+    width: 751px;
+    background: #fff;
+    bottom: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    left: -6px;
+    top: 0px;
+
+}
+.card-fjText{
+	position: relative;
+	z-index: 99;
+}
+.card-fjText h4{
+	font-weight: bold;
+}
+.card-fjText p{
+	color: #808080bd;
+}	
+
+.card-allAre .btn-fj{
+	position: absolute;
+right: -431px;
+top: 0px;
+width: 60px;
+height: 122%;
+background-color: #f1630d;
+color: #ffffff;
+padding: 0px 25px;
+font-size: 18px;
+writing-mode: vertical-lr;
+border-left: 1px solid rgba(0,0,0,0.08);
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+    
+}
+.card-allAre .btn-fj:hover{
+	background:#f1630d;
+    
+}
+.card-fjText .btn-fj span{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -42px 0px 0px -12px;
+}
+
+/*futur-jobs secton start*/
+/*PopularCandidates start*/
+.card-img-top{
+	border-radius: 146px;
+}
+.card{
+	transition:all 0.6s;
+	margin-bottom: 10px;
+}
+.card:hover{
+	background:#FB236A;
+	color: #fff;
+}
+
+/*PopularCandidates end*/
+/*section coll acation start*/
+.coll-action-1{
+    position: relative;
+}
+.coll-action-1:before{
+    content:'';
+    position: absolute;
+    background: #FB236A;
+    height: 100px;
+    width: 50%;
+    top: 0px;
+
+}
+.coll-action-2{
+    position: relative;
+}
+.coll-action-2:after{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 50%;
+    background: #F5F5F5;
+    top: 0px;
+    left: 674px;
+}
+.coll-text{
+    color: #ffff;
+    font-size: 22px;
+    padding-top: 37px;
+}
+.btn-job{
+    color: #fff;
+    background: #274160;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    border: 2px solid #274160;
+    transition:all 0.6s;
+}
+.btn-job:hover{
+    background: #F5F5F5;
+    color: #274160;
+
+
+}
+.job-btn{
+    padding-top: 25px;
+    padding-left: 354px;
+}
+
+        /*section coll acation end*/
+        /*count-section-start*/
+.count{
+    background: #274160;
+    padding-top: 40px;
+    padding-bottom: 34px;
+}
+.count-num h1{
+    color: #ffffff;
+    font-size: 100px;
+    position: relative;
+    font-weight: 400;
+}
+.count-num:before{
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    width: 39px;
+    height: 4px;
+    top: 113px;
+    left: 116px;
+}
+.count-txt h5{
+    color: #ffffff;
+    font-size: 14px;
+}
+        /*count-section-start*/
+
+
+
